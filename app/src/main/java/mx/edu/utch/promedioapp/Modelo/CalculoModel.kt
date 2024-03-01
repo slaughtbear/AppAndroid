@@ -7,7 +7,7 @@ class CalculoModel {
 
     fun obtenerResultado(promedio: Double): String {
         return if (promedio >= 6) {
-            "acreditado con un promedio de $promedio"
+            "ha acreditado con un promedio de $promedio"
         } else {
             "no logró acreditar, promedio de $promedio"
         }

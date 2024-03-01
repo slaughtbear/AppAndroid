@@ -22,8 +22,6 @@ class MainActivity : AppCompatActivity(), ICalculoView, View.OnClickListener {
         botonCalcular.setOnClickListener(this)
     }
 
-    //comentario para verificar que ya esta en git
-
     override fun onClick(v: View?) {
         if (v != null) {
             if (v.id == R.id.btnCalcular) {
